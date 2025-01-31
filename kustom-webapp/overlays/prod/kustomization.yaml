@@ -1,8 +1,8 @@
 bases:
   - ../../base
 
-patches:
-  - path: replicas.yaml
+patchesStrategicMerge:
+  - replicas.yaml
 
 configMapGenerator:
   - name: mykustom-map
