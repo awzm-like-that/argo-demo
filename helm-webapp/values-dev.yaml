@@ -1,6 +1,6 @@
 
-replicas: 4
+replicas: 1
 
 configmap:
   data:
-    CUSTOM_HEADER: 'This is on the DEV environment!'
+    CUSTOM_HEADER: 'This is a prod environment!'
